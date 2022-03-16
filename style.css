@@ -1,0 +1,101 @@
+body {
+    background-image: url('Billeder/asd.gif');
+    background-repeat: repeat;
+    background-size: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h2, h1{
+  text-align: center;
+}
+
+h1{
+  font-size: 5vw;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: white;
+  margin: 0 400 100 400;
+  box-shadow: 10px 10px 10px 0px black;
+}
+
+.vid{
+  display: block;
+  width: 700px;
+  height: 350px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 10px 10px 10px 0px black;
+}
+
+h2{
+  padding: 10 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+/*boksen der sætter ikonerne på række*/
+.social_container{
+  margin-top: 7em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 10px 10px 10px 0px black;
+
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* solid border til sociale ikoner*/
+.social_border{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3em;
+  padding: 10 0;
+}
+
+/*herunder bliver ikonerne redigeret*/
+.yt_icon, .fb_icon, .ig_icon{
+  margin-left: auto;
+  margin-right: auto;
+  height: 48px;
+}
+
+/*herunder indsætter vi videoen*/
+iframe{
+  display: block;
+  margin: auto;
+  border: solid;
+}
+
+@media only screen and (max-width: 1130px) {
+  h1 {
+    margin: 0 25 150 25;
+    font-size: 10vw;
+  }
+  .vid{
+    width: 800px;
+    height: 600px;
+  }
+  h2{
+    width: 350px;
+    font-size: 4vw;
+  }
+  .social_container{
+    margin-top: 250px;
+  }
+}
