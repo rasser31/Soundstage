@@ -20,7 +20,7 @@ h1{
   border: 1px solid black;
   border-radius: 25px;
   background-color: white;
-  margin: 0 400 100 400;
+  margin: 0 350 100 350;
   box-shadow: 10px 10px 10px 0px black;
 }
 
@@ -43,11 +43,11 @@ h2{
   margin-left: auto;
   margin-right: auto;
   width: 200px;
+  color: white;
 }
 
 /*boksen der sætter ikonerne på række*/
 .social_container{
-  margin-top: 7em;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
@@ -85,8 +85,8 @@ iframe{
 
 @media only screen and (max-width: 1130px) {
   h1 {
-    margin: 0 10 150 10;
-    font-size: 9.5vw;
+    margin: 0 0 150 0;
+    font-size: 9vw;
   }
   .vid{
     width: 800px;
